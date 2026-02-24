@@ -1,4 +1,4 @@
-mport pandas as pd
+import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sn
  
@@ -24,7 +24,7 @@ product_sales = df_ecom.groupby('Description')['Sales'].sum().head(10)
 # Bar chart
 product_sales.plot(kind='bar')
 plt.title("Top 10 Products by Sales")
-plt.xlabel("Product")
+plt.xlabel("Product") 
 plt.ylabel("Sales")
 plt.show()
  
