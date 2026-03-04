@@ -1,3 +1,5 @@
+print("Sanadhani -24BAD104")
+print("Exp-4")
 
 # =========================
 # 1. Import Libraries
@@ -205,3 +207,4 @@ plt.bar(feature_names[top_ham_freq_indices], ham_counts[top_ham_freq_indices])
 plt.xticks(rotation=45)
 plt.title("Top Word Frequencies in Ham")
 plt.show()
+
